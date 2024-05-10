@@ -3,9 +3,6 @@ almacene en un arreglo y luego encuentre y muestre el número más grande.*/
 #include <iostream>
 using namespace std;
 
-#include <iostream>
-using namespace std;
-
 int main(int argc, char const *argv[])
 {
     int num[10];
