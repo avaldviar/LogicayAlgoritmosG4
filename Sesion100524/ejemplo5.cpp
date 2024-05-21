@@ -3,25 +3,22 @@ almacene en un arreglo y luego encuentre y muestre el número más grande.*/
 #include <iostream>
 using namespace std;
 
-#include <iostream>
-using namespace std;
-
 int main(int argc, char const *argv[])
 {
     int num[10];
-    int cont = 0;
+    int i = 0;
     int max = INT_MIN;
 
     cout << "ingresa 10 numeros enteros:" << endl;
-    while (cont < 10)
+    while (i < 10)
     {
-        cout << "# " << cont + 1 << ": ";
-        cin >> num[cont];
-        if (num[cont] > max)
+        cout << "# " << i + 1 << ": ";
+        cin >> num[i];
+        if (num[i] > max)
         {
-            max = num[cont];
+            max = num[i];
         }
-        cont++;
+        i++;
     }
     cout << "El numero mas grande es: " << max << endl;
 
